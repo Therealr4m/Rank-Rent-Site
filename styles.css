@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* Your existing classes — upgraded but unchanged names */
+
+.heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subheads {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 14px 22px;
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+.cta-btn:hover {
+    background-color: #e6b800;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+    position: relative;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+}
+
+.hero-sub p {
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    display: inline-block;
+    padding: 6px 14px;
+    margin: 6px 0;
+    border-radius: 6px;
+}
+
+
+
+/* TRUST SECTION */
+
+.trust {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.trust h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.trust-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.trust-card {
+    width: 280px;
+    background: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.trust-card img {
+    max-width:100%;
+    height:95%;
+    object-fit: contain;
+    border-radius: 6px;
+    
+    
+}
+ .trustedi{
+    background-color: #ffcc00;
+    padding: 14px 22px;
+    color: #000;
+    margin-top: 16%;
+    font-size: 1.1rem;
+   font-weight: bold;
+   border-radius: 6px;
+   
+
+ }
+
+
+/* SERVICES */
+
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 1.8rem;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.services li {
+    margin: 8px 0;
+}
+
+
+
+/* GALLERY */
+
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    object-fit:contain;
+    border-radius: 8px;
+}
+
+/* just a safety net to make all images be full size */
+img{
+max-width: 100%;
+height: auto;
+object-fit: contain;
+}
+
+/* FINAL CTA */
+
+.final-cta {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffcc00;
+}
+
+.final-cta h2 {
+    font-size: 1.8rem;
+}
+
+.final-cta p {
+    font-size: 1.2rem;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 16px;
+    background: #222;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
